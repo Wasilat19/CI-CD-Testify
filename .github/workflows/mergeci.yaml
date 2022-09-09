@@ -4,5 +4,5 @@ jobs:
  Explore-GitHub-Actions:
    runs-on: [ubuntu-latest, windows-latest, macos-latest
    steps:
-     - run: echo "The job was automatically triggered by a ${{ github.event_name }} event"
+     - uses: actions/checkout@v2
      - run: python main.py
